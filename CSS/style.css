@@ -50,8 +50,20 @@ h1 {
     align-self: center;
 }
 
+/*Projects Section*/
 
+.projects-container ul {
+    padding-left: 1rem;
+    width: 50%;
+}
 
+.projects-container li {
+    cursor: pointer;
+}
+
+.projects-container a {
+    display: none;
+}
 
 
 
