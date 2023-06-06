@@ -1,0 +1,62 @@
+body {
+    font-family: Asap, sans-serif;
+    font-size: 16px;
+    color: rgb(33, 47, 47);
+    background-color:rgb(243, 239, 206);
+    max-width: 900px;
+    margin: 0 auto;  
+}
+
+/*Header Section*/
+
+header {
+    display: flex;
+    justify-content: space-between ;
+}
+
+header ul {
+    display: inline-flex;
+}
+
+header li {
+    list-style: none;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 47, 47);
+}
+
+h1 {
+    font-weight: 800;
+}
+
+/*About-Me Section*/
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-container {
+    
+    width: 50%;
+}
+
+.about-me img {
+    border-radius: 50%;
+    align-self: center;
+}
+
+
+
+
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+}

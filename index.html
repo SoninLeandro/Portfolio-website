@@ -3,6 +3,7 @@
     <head>
         <title>Portfolio Website</title>
         
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
         <link href="./CSS/style.css" type="text/css" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,29 +15,66 @@
             <h1>Leandro Sonin</h1>
             <nav>
                 <ul>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="/#about-me">About me</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#skills">Skills</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
+        <hr>
+        
         <main>
-            <section>
-                <h2>About me</h2>
-                <h3>Full-stack developer</h3>
-                <p>My name is Leandro Sonin, I'm a graduated student from Codecademy specialized in Full-stack development.<br>
-                    I am Argentinian, but have been living in London since August 2021.<br>
+            <section class="about-me">
+                <div class="about-me-container">
+                    <h2>About me</h2>
+                    <h3>Full-stack developer</h3>
+                    <p>My name is Leandro, I'm a graduated student from Codecademy specialized in Full-stack development.</p>
+                    <p>I am Argentinian, but I have been living in London since August 2021.<br>
                     I've been working on several projects and now I'm ready for my first official job as a developer.<br>            
-                </p>
-                <p>I used to work in hospitality for most of my life, almost 10 years in the most prestigious hotels and restaurantes from Argentina, Canada, USA and UK.<br>
-                I love travelling and getting to know different cultures and traditions, as well as making friends from all over the world!</p>
+                    </p>
+                    <p>I used to work in hospitality for most of my life, almost 10 years in the most prestigious hotels and restaurantes from Argentina, Canada, USA and UK.<br>
+                    I love travelling and getting to know different cultures and traditions, as well as making friends from all over the world!</p>
+                </div>
+                <img src="./Media/WhatsApp Image 2023-06-06 at 15.20.32.jpeg" height="250px" width="300px" alt="Picture of Leandro">
+            </section>
+
+            <hr>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <div  class="project-container">
+                    <ul>
+                        <li class="muchachas"><a href="https://github.com/SoninLeandro/Muchachas-FC--Grid-flexbox-responsive-.git" target="_blank">Muchachas F.C.</a></li>
+                        <li class="mixed-messages"><a href="https://github.com/SoninLeandro/Mixed-Messages.git" target="_blank">Mixed Messages</a></li>
+                        <li class="warszatska"><a href="https://github.com/SoninLeandro/Warszatska.git" target="_blank">Warszatska</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="logos">
+                    <img src="./Media/html5.svg" height="40px" width="40px" alt="HTML5 logo">
+                    <img src="./Media/css3-alt.svg" height="40px" width="40px" alt="CSS3 logo">
+                    <img src="./Media/github.svg" height="40px" width="40px" alt="github logo">
+                    <img src="./Media/react.svg" height="40px" width="40px" alt="ReactJS logo">
+                    <img src="./Media/square-js.svg" height="40px" width="40px" alt="JavaScript logo">
+                    <img src="./Media/python.svg" height="40px" width="40px" alt="Python logo">
+                    <img src="./Media/node.svg" height="40px" width="40px" alt="Node logo">
+                </div>
             </section>
 
         </main>
 
-        <footer></footer>
+        <hr>
+
+        <footer>
+            <p>Developed in London, 2023</p>
+        </footer>
 
     </body>
 </html>
