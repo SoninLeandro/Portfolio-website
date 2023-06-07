@@ -7,6 +7,27 @@ body {
     margin: 0 auto;  
 }
 
+@media only screen and (max-width: 899px) {
+    body {
+        max-width: 90%;
+    }
+}
+
+h1 {
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 47, 47);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+}
+
 /*Header Section*/
 
 header {
@@ -22,15 +43,22 @@ header li {
     list-style: none;
     padding: 1rem;
     font-weight: 600;
+    font-size: 1.1rem;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(33, 47, 47);
-}
+@media only screen and (max-width: 700px) {
+    header {
+        justify-content: center;
+    }
+    
+    header h1 { /*Makes the header H1 disappear*/
+        display: none;
+    }
 
-h1 {
-    font-weight: 800;
+    header ul {
+        padding: 0;
+        max-width: 90%;
+    }
 }
 
 /*About-Me Section*/
@@ -40,9 +68,12 @@ h1 {
     justify-content: space-between;
 }
 
-.about-me-container {
-    
+.about-me-container { 
     width: 50%;
+}
+
+.about-me-container h1 {
+    display: none;
 }
 
 .about-me img {
@@ -50,25 +81,89 @@ h1 {
     align-self: center;
 }
 
+.about-me-container p {
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .about-me {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .about-me img {
+        display: none;
+    }
+
+    .about-me h1 { /*Appears the "about-me" H1 */
+        display: block;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .about-me-container { 
+        width: 80%;
+    }
+}
+
 /*Projects Section*/
 
 .projects-container ul {
     padding-left: 1rem;
-    width: 50%;
 }
 
 .projects-container li {
     cursor: pointer;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
-.projects-container a {
-    display: none;
+.projects-container p {
+    width: 80%;
 }
 
+/*Skills Section*/
 
+.logos img {
+    margin: 1rem;
+}
 
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+/*Contact Section*/
+
+.contact-container {
+    display: block;
+}
+
+.contact-info {
+    display: inline-flex;
+}
+
+.contact-info img {
+    margin: 1rem;
+}
+
+.contact-info a {
+    display: flex;
+    align-items: center;
+}
+
+.contact-message {
+    padding: 1rem;
+}
+
+.contact-message input {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-container p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    textarea {
+        max-width: 90%;
+    }
 }

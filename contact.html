@@ -18,19 +18,51 @@
                     <li><a href="/#about-me">About me</a></li>
                     <li><a href="/#projects">Projects</a></li>
                     <li><a href="/#skills">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
+        <hr>
+
         <main>
-            <h2>Contact me</h2>
-            <h3>If you have an interesting project and need someone to help you with it, I'd be happy to get in touch!</h3>
-            <img src="./Media/instagram.svg" height="40px" width="40px" alt="Instagram logo">
-            <img src="./Media/linkedin.svg" height="40px" width="40px" alt="Linkedin logo">
-            <img src="./Media/whatsapp.svg" height="40px" width="40px" alt="WhatsApp logo">
+            <div class="contact">
+                <h2>Contact me</h2>
+                <h3>If you have an interesting project or you are building your own team, I'd be happy to get in touch!</h3>
+                <div class="contact-container">
+                    <section class="contact-message">
+                        <form action="" method="">
+                            <div class="name">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email"><br>
+                            </div>
+                            <label for="message">Leave me a message:</label><br>
+                            <textarea name="message" id="message" cols="55" rows="10"></textarea><br>
+                            
+                            <input type="submit" name="submit" id="submit" value="Send">
+                        </form>
+                    </section>
+                    <section class="contact-info">
+                        <a href="https://github.com/SoninLeandro" target="_blank"><img src="./Media/github.svg" height="40px"
+                                width="40px" alt="Github logo"></a><br>
+                        <a href="https://www.linkedin.com/in/leandro-sonin-4677201bb/" target="_blank"><img src="./Media/linkedin.svg" height="40px"
+                                width="40px" alt="Linkedin logo"></a><br>
+                        <a href="tel:07586977448"><img src="./Media/whatsapp.svg" height="40px" width="40px" alt="WhatsApp logo"><p>07586977448</p></a><br>
+                        <a href="mailto:soninleandro@gmail.com"><img src="./Media/envelope-regular.svg" height="40px" width="40px" alt="Email logo"><p>soninleandro@gmail.com</p></a>
+                    </section>
+                </div>
+            </div>
         </main>
 
-    <footer></footer>
+        <hr>
 
-</body>
+        <footer>
+            <p>Developed in London, 2023</p>
+        </footer>
+
+    </body>
 </html>

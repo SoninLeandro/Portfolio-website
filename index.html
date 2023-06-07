@@ -15,9 +15,9 @@
             <h1>Leandro Sonin</h1>
             <nav>
                 <ul>
-                    <li><a href="/#about-me">About me</a></li>
-                    <li><a href="/#projects">Projects</a></li>
-                    <li><a href="/#skills">Skills</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -26,8 +26,9 @@
         <hr>
         
         <main>
-            <section class="about-me">
+            <section class="about-me" id="about-me">
                 <div class="about-me-container">
+                    <h1>Leandro Sonin</h1>
                     <h2>About me</h2>
                     <h3>Full-stack developer</h3>
                     <p>My name is Leandro, I'm a graduated student from Codecademy specialized in Full-stack development.</p>
@@ -37,29 +38,34 @@
                     <p>I used to work in hospitality for most of my life, almost 10 years in the most prestigious hotels and restaurantes from Argentina, Canada, USA and UK.<br>
                     I love travelling and getting to know different cultures and traditions, as well as making friends from all over the world!</p>
                 </div>
-                <img src="./Media/WhatsApp Image 2023-06-06 at 15.20.32.jpeg" height="250px" width="300px" alt="Picture of Leandro">
+                <img src="./Media/WhatsApp Image 2023-06-06 at 15.20.32.jpeg" height="300px" width="300px" alt="Picture of Leandro">
             </section>
 
             <hr>
 
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h2>Projects</h2>
                 <div  class="projects-container">
                     <ul>
-                        <li class="muchachas">Muchachas F.C.</li>
-                        <a href="https://github.com/SoninLeandro/Muchachas-FC--Grid-flexbox-responsive-.git" target="_blank"></a>
-                        <li class="mixed-messages">Mixed Messages</li>
-                        <a href="https://github.com/SoninLeandro/Mixed-Messages.git" target="_blank"></a>
-                        <li class="warszatska" onclick="showImage()">Warszatska</li>
-                        <a id="project-img" href="https://github.com/SoninLeandro/Warszatska.git" target="_blank"><img src="./Media/WhatsApp Image 2023-06-06 at 16.59.10.jpeg" alt="Photo of the project" height="300px" width="300px">
-                        </a>
+                        <li class="muchachas" onclick="showImage1()">Muchachas F.C.</li>
+                        <a id="project-img 1" href="https://soninleandro.github.io/Muchachas-FC/" target="_blank" style="display: none;"><img src="./Media/WhatsApp Image 2023-06-06 at 18.52.26.jpeg" alt="Photo of the project Muchachas FC"  height="300px" width="300px">
+                        <p>This is a static HTML5 and CSS3 website for the women's football team Muchachas F.C.</p></a>
+
+
+                        <li class="mixed-messages" onclick="showImage2()">Mixed Messages</li>
+                        <a id="project-img 2" href="https://soninleandro.github.io/Mixed-Messages/" target="_blank" style="display: none;"><img src="" alt="Photo of the website Mixed Messages">
+                        <p>This is a simple game built with HTML5, CSS3 and JavaScript.</p></a>
+
+                        <li class="warszatska" onclick="showImage3()">Warszatska</li>
+                        <a id="project-img 3" href="https://github.com/SoninLeandro/Warszatska.git" target="_blank" style="display: none;"><img src="./Media/WhatsApp Image 2023-06-06 at 16.59.10.jpeg" alt="Photo of the project for Warszatska" height="300px" width="300px">
+                        <p>This is a website built with Create ReactJS App, for the Argentinian artist German Warszatska.</p></a>
                     </ul>
                 </div>
             </section>
 
             <hr>
 
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h2>Skills</h2>
                 <div class="logos">
                     <img src="./Media/html5.svg" height="40px" width="40px" alt="HTML5 logo">
