@@ -29,3 +29,12 @@ function showImage3() {
     }
 };
 
+function showImage4() {
+    let img4 = document.getElementById('project-img 4');
+
+    if (img4.style.display === 'none') {
+        img4.style.display = 'block'
+    } else {
+        img4.style.display = 'none'
+    }
+};
