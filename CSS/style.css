@@ -70,6 +70,7 @@ header li {
 
 .about-me-container { 
     width: 50%;
+    text-align: justify;
 }
 
 .about-me-container h1 {

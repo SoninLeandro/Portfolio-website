@@ -31,12 +31,16 @@
                     <h1>Leandro Sonin</h1>
                     <h2>About me</h2>
                     <h3>Full-stack developer</h3>
-                    <p>My name is Leandro, I'm a graduated student from Codecademy specialized in Full-stack development.</p>
+                    <p>My name is Leandro, I am currently enrolled as a student at Codecademy, pursuing a career path to become a Full-stack developer soon.</p>
                     <p>I am Argentinian, but I have been living in London since August 2021.<br>
-                    I've been working on several projects and now I'm ready for my first official job as a developer.<br>            
+                        I have been actively engaged in multiple projects and I have reached a point where I am prepared to embark on my initial role as a Junior Developer. 
+                        I am eager to get insights and knowledge from seasoned professionals, as I am fully committed to continuously expand my knowledge and skill set.            
                     </p>
                     <p>I used to work in hospitality for most of my life, almost 10 years in the most prestigious hotels and restaurantes from Argentina, Canada, USA and UK.<br>
-                    I love travelling and getting to know different cultures and traditions, as well as making friends from all over the world!</p>
+                        This is why I feel communication and dealing with unexpected problems are some of my strongest habilities.</p>
+                    <p>I deeply enjoy travelling and exploring different cultures and traditions, as well as making friends from all over the world,<br>
+                        This is precisely why I believe that pursuing a career as a developer, with the ability to work remotely from any corner of the world,
+                         aligns perfectly with my personal aspirations.</p>
                 </div>
                 <img src="./Media/WhatsApp Image 2023-06-06 at 15.20.32.jpeg" height="300px" width="300px" alt="Picture of Leandro">
             </section>
@@ -47,21 +51,41 @@
                 <h2>Projects</h2>
                 <div  class="projects-container">
                     <ul>
-                        <li class="muchachas" onclick="showImage1()">Muchachas F.C.</li>
-                        <a id="project-img 1" href="https://soninleandro.github.io/Muchachas-FC/" target="_blank" style="display: none;"><img src="./Media/WhatsApp Image 2023-06-06 at 18.52.26.jpeg" alt="Photo of the project Muchachas FC"  height="300px" width="300px">
+                        <li class="jamming" onclick="showImage('jamming')">Jamming</li>
+                        <a id="jamming" href="http://leandro-sonin-jamming-proyect.surge.sh/" 
+                        target="_blank" style="display: none;">
+                            <img src="./Media/WhatsApp Image 2023-06-22 at 15.30.59.jpeg" alt="Photo of the project Jamming" 
+                            height="300px" width="300px">
+                        <p>This is a React-built App, which allows users to search songs, artists or albums from Spotify and create a personalized 
+                            playlist and then save it to their personal Spotify account.</p></a>
+
+                        <li class="martial-arts" onclick="showImage('martial-arts')">Martial Arts Dojo</li>
+                        <a id="martial-arts" href="https://soninleandro.github.io/Martial-arts-dojo/" 
+                        target="_blank" style="display: none;">
+                            <img src="./Media/WhatsApp Image 2023-06-07 at 15.55.03.jpeg" alt="Photo of the project Martial Arts Dojo" 
+                            height="300px" width="300px">
+                        <p>This is the first responsive website I built during my courses using HTML5, CSS3 and JavasCript, and it simulates a Martial Arts Dojo.</p></a>
+
+                        <li class="muchachas" onclick="showImage('muchachas')">Muchachas F.C.</li>
+                        <a id="muchachas" href="https://soninleandro.github.io/Muchachas-FC/" 
+                        target="_blank" style="display: none;">
+                            <img src="./Media/WhatsApp Image 2023-06-06 at 18.52.26.jpeg" alt="Photo of the project Muchachas FC"  
+                            height="300px" width="300px">
                         <p>This is a static but responsive HTML5 and CSS3 website for the women's football team Muchachas F.C.</p></a>
 
-                        <li class="mixed-messages" onclick="showImage2()">Mixed Messages</li>
-                        <a id="project-img 2" href="https://soninleandro.github.io/Mixed-Messages/" target="_blank" style="display: none;"><img src="./Media/WhatsApp Image 2023-06-07 at 15.55.58.jpeg" alt="Photo of the project Mixed Messages" height="300px" width="300px">
-                        <p>This is a simple game built with HTML5, CSS3 and JavaScript.</p></a>
+                        <li class="mixed-messages" onclick="showImage('mixed-messages')">Mixed Messages</li>
+                        <a id="mixed-messages" href="https://soninleandro.github.io/Mixed-Messages/" 
+                        target="_blank" style="display: none;">
+                            <img src="./Media/WhatsApp Image 2023-06-07 at 15.55.58.jpeg" alt="Photo of the project Mixed Messages" 
+                            height="300px" width="300px">
+                        <p>This is a simple game built with HTML5, CSS3 and JavaScript. It shows a funny random prediction (from my cat) every time you run the program.</p></a>
 
-                        <li class="warszatska" onclick="showImage3()">Warszatska</li>
-                        <a id="project-img 3" href="https://soninleandro.github.io/Warszatska/" target="_blank" style="display: none;"><img src="./Media/WhatsApp Image 2023-06-06 at 16.59.10.jpeg" alt="Photo of the project for Warszatska" height="300px" width="300px">
-                        <p>This is a website built with Create ReactJS App, for the Argentinian artist German Warszatska.</p></a>
-
-                        <li class="martial-arts" onclick="showImage4()">Martial Arts Dojo</li>
-                        <a id="project-img 4" href="https://soninleandro.github.io/Martial-arts-dojo/" target="_blank" style="display: none;"><img src="./Media/WhatsApp Image 2023-06-07 at 15.55.03.jpeg" alt="Photo of the project Martial Arts Dojo" height="300px" width="300px">
-                        <p>This is the first responsive website I built during my courses using HTML5, CSS3 and JavasCript.</p></a>
+                        <li class="warszatska" onclick="showImage('warszatska')">Warszatska</li>
+                        <a id="warszatska" href="https://soninleandro.github.io/Warszatska/" 
+                        target="_blank" style="display: none;">
+                            <img src="./Media/WhatsApp Image 2023-06-06 at 16.59.10.jpeg" alt="Photo of the project for Warszatska" 
+                            height="300px" width="300px">
+                        <p>This is a website built with Create-React-App, for the Argentinian artist German Warszatska to promote his life and experience.(Text is in spanish)</p></a>
                     </ul>
                 </div>
             </section>
